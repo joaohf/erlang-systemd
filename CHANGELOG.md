@@ -1,6 +1,19 @@
 <a name="unreleased"></a>
 ## [Unreleased]
 
+### Bug Fixes
+- typespecs for watchdog/1
+- fix dialyzer error for systemd:set_status/1
+- **journal_h:** Dialyzer error
+
+### Documentation
+- correct the in-doc description of return value for watchdog/1
+- fix typos
+
+### Features
+- add warning log message if there is no readiness message sent
+- send MAINPID message on socket start
+
 
 <a name="v0.6.2"></a>
 ## [v0.6.2] - 2021-12-30
